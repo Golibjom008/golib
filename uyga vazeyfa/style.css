@@ -1,0 +1,62 @@
+<h1 class="text">Margin vs Padding</h1>
+<div class="text-wrapper">
+    <p class="wrapper-text1">Model qismlarining tavsifi:
+        Content - blokning kontenti yani matn va rasmlar joylashadigan qismi.
+        Padding - Content atrofidagi sohani tozalovchi shaffof qism.
+        Border - Content va Padding atrofidagi hoshiya.
+        Margin - Border atrofidagi sohani tozalovchi shaffof qism.
+    </p>
+    <p class="wrapper-text2">
+        Model qismlarining tavsifi:
+Content - blokning kontenti yani matn va rasmlar joylashadigan qismi.Padding - Content atrofidagi sohani tozalovchi shaffof qism.Border - Content va Padding atrofidagi hoshiya.Margin - Border atrofidagi sohani tozalovchi shaffof qism.
+Model qismlarining tavsifi:
+    </p>
+</div>
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: green;
+  }
+  
+  .text{
+    color: white;
+    background-color: brown;
+    font-size: 50px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding-top: 24px;
+    padding-right: 17px;
+    padding-bottom: 23px;
+    padding-left: 28px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  
+  .text-wrapper{
+    border: 5px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 45px;
+    padding-right: 52px;
+    padding-bottom: 45px;
+    padding-left: 52px;
+  }
+.wrapper-text1, .wrapper-text2{
+    background-color: aqua;
+    width: 896px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding-top:54px ;
+    padding-left: 40px;
+    padding-bottom: 54px;
+    padding-right: 39px;
+    
+    
+}  
+.wrapper-text1{
+    margin-bottom: 30px;
+}
